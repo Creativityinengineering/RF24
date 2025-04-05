@@ -20,7 +20,7 @@
 #if defined(RF24_LINUX) || defined(LITTLEWIRE)
     #include "utility/includes.h"
 #elif defined SOFTSPI
-    #include <DigitalIO.h>
+    #include "../DigitalIO/src/DigitalIO.h"
 #endif
 
 /**
